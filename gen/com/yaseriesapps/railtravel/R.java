@@ -9,23 +9,206 @@ package com.yaseriesapps.railtravel;
 
 public final class R {
     public static final class attr {
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int actionbarCompatButtonStyle=0x7f010000;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int actionbarCompatLogoStyle=0x7f010003;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int actionbarCompatProgressIndicatorStyle=0x7f010001;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int actionbarCompatSeparatorStyle=0x7f010002;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int actionbarCompatTextStyle=0x7f010004;
+        /** <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int textHeaderMaxLines=0x7f010005;
+        /** <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int trackAbstractMaxLines=0x7f010006;
+    }
+    public static final class color {
+        public static final int actionbar_text=0x7f040000;
+    }
+    public static final class dimen {
+        public static final int actionbar_compat_height=0x7f050000;
+        public static final int text_size_medium=0x7f050001;
     }
     public static final class drawable {
-        public static final int icon=0x7f020000;
+        public static final int actionbar_compat_background=0x7f020000;
+        public static final int actionbar_compat_button=0x7f020001;
+        public static final int actionbar_compat_logo=0x7f020002;
+        public static final int actionbar_compat_separator=0x7f020003;
+        public static final int background_noise=0x7f020004;
+        public static final int background_noise_tile=0x7f020005;
+        public static final int btn_bg_pressed=0x7f020006;
+        public static final int btn_bg_selected=0x7f020007;
+        public static final int icon=0x7f020008;
     }
     public static final class id {
-        public static final int menu_save=0x7f060000;
-        public static final int menu_search=0x7f060001;
+        public static final int actionbar_compat=0x7f060000;
+        public static final int actionbar_compat_container=0x7f060001;
+        public static final int actionbar_compat_logo=0x7f060002;
+        public static final int actionbar_compat_text=0x7f060003;
+        public static final int menu_save=0x7f060004;
+        public static final int menu_search=0x7f060005;
+    }
+    public static final class integer {
+        public static final int text_header_max_lines=0x7f070000;
+        public static final int track_abstract_max_lines=0x7f070001;
     }
     public static final class layout {
         public static final int main=0x7f030000;
     }
     public static final class menu {
-        public static final int menu=0x7f050000;
+        public static final int menu=0x7f0a0000;
     }
     public static final class string {
-        public static final int app_name=0x7f040001;
-        public static final int hello=0x7f040000;
-        public static final int menu_save=0x7f040002;
+        public static final int app_name=0x7f080001;
+        public static final int description_logo=0x7f080003;
+        public static final int hello=0x7f080000;
+        public static final int menu_save=0x7f080002;
     }
+    public static final class style {
+        public static final int ActionBarCompat=0x7f090003;
+        public static final int ActionBarCompatButton=0x7f090004;
+        public static final int ActionBarCompatLogo=0x7f090005;
+        public static final int ActionBarCompatProgressIndicator=0x7f090007;
+        public static final int ActionBarCompatSeparator=0x7f090008;
+        public static final int ActionBarCompatText=0x7f090006;
+        /**  Base application theme is the default theme. 
+         */
+        public static final int Theme=0x7f090000;
+        /**  Variation on the Light theme that turns off the title 
+         */
+        public static final int Theme_RailTravel=0x7f090001;
+        /**  Start with the Holographic Light theme 
+         */
+        public static final int Theme_RailTravel_Home=0x7f090002;
+    }
+    public static final class styleable {
+        /** Attributes that can be used with a AppTheme.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #AppTheme_actionbarCompatButtonStyle com.yaseriesapps.railtravel:actionbarCompatButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppTheme_actionbarCompatLogoStyle com.yaseriesapps.railtravel:actionbarCompatLogoStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppTheme_actionbarCompatProgressIndicatorStyle com.yaseriesapps.railtravel:actionbarCompatProgressIndicatorStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppTheme_actionbarCompatSeparatorStyle com.yaseriesapps.railtravel:actionbarCompatSeparatorStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppTheme_actionbarCompatTextStyle com.yaseriesapps.railtravel:actionbarCompatTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppTheme_textHeaderMaxLines com.yaseriesapps.railtravel:textHeaderMaxLines}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppTheme_trackAbstractMaxLines com.yaseriesapps.railtravel:trackAbstractMaxLines}</code></td><td></td></tr>
+           </table>
+           @see #AppTheme_actionbarCompatButtonStyle
+           @see #AppTheme_actionbarCompatLogoStyle
+           @see #AppTheme_actionbarCompatProgressIndicatorStyle
+           @see #AppTheme_actionbarCompatSeparatorStyle
+           @see #AppTheme_actionbarCompatTextStyle
+           @see #AppTheme_textHeaderMaxLines
+           @see #AppTheme_trackAbstractMaxLines
+         */
+        public static final int[] AppTheme = {
+            0x7f010000, 0x7f010001, 0x7f010002, 0x7f010003,
+            0x7f010004, 0x7f010005, 0x7f010006
+        };
+        /**
+          <p>This symbol is the offset where the {@link com.yaseriesapps.railtravel.R.attr#actionbarCompatButtonStyle}
+          attribute's value can be found in the {@link #AppTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name android:actionbarCompatButtonStyle
+        */
+        public static final int AppTheme_actionbarCompatButtonStyle = 0;
+        /**
+          <p>This symbol is the offset where the {@link com.yaseriesapps.railtravel.R.attr#actionbarCompatLogoStyle}
+          attribute's value can be found in the {@link #AppTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name android:actionbarCompatLogoStyle
+        */
+        public static final int AppTheme_actionbarCompatLogoStyle = 3;
+        /**
+          <p>This symbol is the offset where the {@link com.yaseriesapps.railtravel.R.attr#actionbarCompatProgressIndicatorStyle}
+          attribute's value can be found in the {@link #AppTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name android:actionbarCompatProgressIndicatorStyle
+        */
+        public static final int AppTheme_actionbarCompatProgressIndicatorStyle = 1;
+        /**
+          <p>This symbol is the offset where the {@link com.yaseriesapps.railtravel.R.attr#actionbarCompatSeparatorStyle}
+          attribute's value can be found in the {@link #AppTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name android:actionbarCompatSeparatorStyle
+        */
+        public static final int AppTheme_actionbarCompatSeparatorStyle = 2;
+        /**
+          <p>This symbol is the offset where the {@link com.yaseriesapps.railtravel.R.attr#actionbarCompatTextStyle}
+          attribute's value can be found in the {@link #AppTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name android:actionbarCompatTextStyle
+        */
+        public static final int AppTheme_actionbarCompatTextStyle = 4;
+        /**
+          <p>This symbol is the offset where the {@link com.yaseriesapps.railtravel.R.attr#textHeaderMaxLines}
+          attribute's value can be found in the {@link #AppTheme} array.
+
+
+          <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android:textHeaderMaxLines
+        */
+        public static final int AppTheme_textHeaderMaxLines = 5;
+        /**
+          <p>This symbol is the offset where the {@link com.yaseriesapps.railtravel.R.attr#trackAbstractMaxLines}
+          attribute's value can be found in the {@link #AppTheme} array.
+
+
+          <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android:trackAbstractMaxLines
+        */
+        public static final int AppTheme_trackAbstractMaxLines = 6;
+    };
 }

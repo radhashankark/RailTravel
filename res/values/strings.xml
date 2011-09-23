@@ -3,4 +3,5 @@
     <string name="hello">Hello World, RailTravel!</string>
     <string name="app_name">RailTravel India</string>
     <string name="menu_save">Save</string>
+    <string name="description_logo">Description Logo</string>
 </resources>
