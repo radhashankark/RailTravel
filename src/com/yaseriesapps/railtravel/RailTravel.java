@@ -1,5 +1,6 @@
 package com.yaseriesapps.railtravel;
 
+import android.app.ActionBar;
 import android.app.Activity;
 import android.os.Bundle;
 import android.util.Log;
@@ -16,6 +17,10 @@ public class RailTravel extends Activity
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
+        // getActivityHelper().setupActionBar(null, 0);
+        
+        /*ActionBar actionBar = getActionBar();
+        actionBar.show();*/
         
         Log.d(LOGTAG, "Loaded main screen");
     }
