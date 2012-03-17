@@ -18,12 +18,11 @@
       android:layout_margin="10px"
       android:background="#777" />
     
-	<fragment 
-	    android:name="com.shankarlabs.railtravel.ui.PNRStatusFragment"
-		android:id="@+id/activity_fragment" 
+	<FrameLayout 
+		android:id="@+id/pane2_fragment" 
 		android:layout_width="match_parent"
 		android:layout_height="match_parent" 
 		android:layout_weight="1"
-		android:tag="activity_fragment"/>
+		android:tag="pane2_fragment" />
     
 </LinearLayout>

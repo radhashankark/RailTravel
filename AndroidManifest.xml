@@ -22,6 +22,28 @@
             
         </activity>
         
+		<activity
+            android:label="@string/app_name"
+            android:name=".ui.PNRStatusActivity" >
+            
+            <intent-filter >
+                <action android:name="com.shankarlabs.railtravel.ui.pnrstatus" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            
+        </activity>
+        
+		<activity
+            android:label="@string/app_name"
+            android:name=".ui.AvailabilityActivity" >
+            
+            <intent-filter >
+                <action android:name="com.shankarlabs.railtravel.ui.availability" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            
+        </activity>
+        
     </application>
 
 </manifest>
